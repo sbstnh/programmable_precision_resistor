@@ -75,4 +75,4 @@ The second diagram shows the absolute value of the deviation between the calcula
 
 ## Further information
 
-More details are available at [https://hackaday.io/project/191969-programmable-precision-resistor]() and on my personal site [https://sebastianharnisch.de]().
+More details are available at [https://hackaday.io/project/191969-programmable-precision-resistor](https://hackaday.io/project/191969-programmable-precision-resistor) and on my personal site [https://sebastianharnisch.de](https://sebastianharnisch.de).
