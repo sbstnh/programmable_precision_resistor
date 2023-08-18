@@ -18,7 +18,7 @@ automated testing
 calibrators
 prototyping
 Basic concept
-The programmable resistor closely follows the main principle of resistor decade boxes: connecting multiple devices (“decades”) in series, with each of the devices having a settable resistance of 0 Ω, 1 ⋅ 10n Ω, 2 ⋅ 10n Ω, 9 ⋅ 10n Ω, where n specifies the decade in question.
+The programmable resistor closely follows the main principle of resistor decade boxes: connecting multiple devices (“decades”) in series, with each of the devices having a settable resistance of 0 Ω, 1 ⋅ 10^n Ω, 2 ⋅ 10^n Ω, 9 ⋅ 10^n Ω, where n specifies the decade in question.
 
 Those devices are simple resistor networks complemented by one (multi-throw) or more (single- or multi-throw) switches. While the actual topology and resistor values vary vastly, the switch(es) will always either short out or connect certain resistors or simply tap certain nodes of the resistor network. A simple implementation uses a 10-throw rotary switch to tap the nodes of a series resistor network of nine resistors.
 
