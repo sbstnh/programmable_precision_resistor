@@ -73,6 +73,13 @@ The second diagram shows the absolute value of the deviation between the calcula
 
 ![Absolute error of indicated value](media/absolute_error.png "Absolute error of indicated value")
 
+## About this repository
+
+This repository contains the PCB design files used in this project. If you'd like to have a look at the interactive bom files you can do so with
+
+- Mainboard: https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/mainboard/bom/ibom.html
+- UI board: https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/ui_board/bom/ibom.html
+
 ## Further information
 
 More details are available at [https://hackaday.io/project/191969-programmable-precision-resistor](https://hackaday.io/project/191969-programmable-precision-resistor) and on my personal site [https://sebastianharnisch.de](https://sebastianharnisch.de).
