@@ -4,6 +4,8 @@ A SCPI programmable precision resistor
 
 ![Programmable Precision Resistor](media/ppr_front.jpg "Programmable Precision Resistor")
 
+**WARNING:** The programmable power resistor presented here is mains powered. On the power supply board there will be mains/line voltage. Working with/on such devices can lead to damage, injury or death. Don't do it if you're not qualified or authorized to do so. You use the circuits described at you own risk. You might operate the mainboard and ui board more safely with a bench or external power supply.
+
 ## Background and motivation
 
 In 2021/2022 I designed a DC electronic load that would be more capable, but also much more complex than the usual DIY solutions. However, after building a working breadboard prototype of the analog circuitry with 12 ICs including multiple precision and dual opamps, I thought that it might be better to start with a smaller project that would allow me to gain a lot of experience and write much of the non-application specific code that I could use later on for the digital part. Also, at the time I was looking for a decade resistor box to add to my lab. And this is how I started working on a programmable decade resistor, a pretty specialized tool for niche applications.
@@ -75,10 +77,11 @@ The second diagram shows the absolute value of the deviation between the calcula
 
 ## About this repository
 
-This repository contains the PCB design files used in this project. If you'd like to have a look at the interactive bom files you can do so with
+This repository contains the PCB design files used in this project. If you'd like to have a look at the interactive bom files you can do so here:
 
 - Mainboard: [HTML Preview of interactive BOM](https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/mainboard/bom/ibom.html)
 - UI board: [HTML Preview of interactive BOM](https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/ui_board/bom/ibom.html)
+- Power Supply Board: [HTML Preview of interactive BOM](https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/power_supply/bom/ibom.html)
 
 ## Further information
 

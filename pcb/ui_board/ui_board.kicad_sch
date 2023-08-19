@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "UI Board for Programmable Precision Resistor")
+    (date "2023-08-19")
+    (rev "B")
+    (company "Sebastian Harnisch")
+  )
+
   (lib_symbols
     (symbol "01_Sebastian:DYSR00P401101" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 31.75 -7.62 0)
