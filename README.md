@@ -77,8 +77,8 @@ The second diagram shows the absolute value of the deviation between the calcula
 
 This repository contains the PCB design files used in this project. If you'd like to have a look at the interactive bom files you can do so with
 
-- Mainboard: https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/mainboard/bom/ibom.html
-- UI board: https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/ui_board/bom/ibom.html
+- Mainboard: [HTML Preview of interactive BOM](https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/mainboard/bom/ibom.html)
+- UI board: [HTML Preview of interactive BOM](https://htmlpreview.github.io/?https://github.com/sbstnh/programmable_precision_resistor/blob/main/pcb/ui_board/bom/ibom.html)
 
 ## Further information
 
