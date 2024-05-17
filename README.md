@@ -54,7 +54,7 @@ Those devices are simple resistor networks complemented by one (multi-throw) or 
 
 The block diagram provides an overview of the different circuit groups of each functional block, their internal connections and external interfaces. The Programmable Decade Resistor consists of three main functional blocks:
 
-1. Power supply (Power Supply Board)
+1. Power supply (Power Supply Board), an external EMI filter is required.
 2. Programmable decades, control and driver circuits (Mainboard)
 3. User Interface (User Interface Board)
 
