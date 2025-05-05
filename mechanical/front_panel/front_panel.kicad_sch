@@ -1,885 +1,2293 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid bcf6cf74-fbc4-41f0-a005-0fd48c7db72f)
-
-  (paper "A4")
-
-  (title_block
-    (title "Front Panel for Programmable Precision Resistor")
-    (date "2023-08-19")
-    (rev "B")
-    (company "Sebastian Harnisch")
-  )
-
-  (lib_symbols
-    (symbol "01_Sebastian:SYMBOL_TRIANGLE_WARNING" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "LOGO" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "SYMBOL_TRIANGLE_WARNING" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "01_Sebastian:Triangle_Warning" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0.508 -0.254 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Warning, triangle" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Warning symbol, triangle with exclamation mark" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SYMBOL_TRIANGLE_WARNING_0_1"
-        (circle (center 0 -1.9304) (radius 0.2272)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.8636)
-            (xy 0 1.6764)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SYMBOL_TRIANGLE_WARNING_1_1"
-        (polyline
-          (pts
-            (xy -5.08 -3.81)
-            (xy 5.08 -3.81)
-            (xy 0 5.08)
-            (xy -5.08 -3.81)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "02_Sebastian_FrontPanel:5_Socket_Terminal" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "5_Socket_Terminal" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "02_Sebastian_FrontPanel:SEB_7080_NI_ARRAY_5" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Terminal with five 4mm safety sockets" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "5_Socket_Terminal_0_1"
-        (circle (center -4.318 -4.318) (radius 1.016)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 -4.318) (radius 1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 -4.318) (radius 2.794)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 -4.318) (radius 3.5921)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (circle (center -4.318 4.318) (radius 1.016)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 4.318) (radius 1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 4.318) (radius 2.794)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -4.318 4.318) (radius 3.5921)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (circle (center 4.318 -12.954) (radius 1.016)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -12.954) (radius 1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -12.954) (radius 2.794)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -12.954) (radius 3.5921)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (circle (center 4.318 -4.318) (radius 1.016)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -4.318) (radius 1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -4.318) (radius 2.794)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -4.318) (radius 3.5921)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (circle (center 4.318 4.318) (radius 1.016)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 4.318) (radius 1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 4.318) (radius 2.794)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 4.318) (radius 3.5921)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "02_Sebastian_FrontPanel:CK PE xx" (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "CK PE xx" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Key cap, front panel" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Key cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "CK PE xx_0_1"
-        (rectangle (start -2.54 1.27) (end 2.54 -1.27)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "02_Sebastian_FrontPanel:FrontPanel_42TE_2HE_With_Holes" (in_bom yes) (on_board yes)
-      (property "Reference" "MP" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "FrontPanel_42TE_2HE_With_Holes" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "02_Sebastian_FrontPanel:Front_Panel_42TE_With_Holes" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at -0.254 5.334 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Front Panel 42 TE 2HE with holes" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FrontPanel_42TE_2HE_With_Holes_0_1"
-        (rectangle (start -12.7 3.81) (end 12.446 -3.81)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (circle (center -11.43 -2.54) (radius 0.0001)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center -11.43 2.54) (radius 0.0001)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 11.43 -2.54) (radius 0.0001)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 11.43 2.54) (radius 0.0001)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 58.42 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 05a443db-87c0-4f66-b891-b2eaac6187f8)
-    (property "Reference" "SW10" (at 58.42 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 58.42 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 58.42 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 58.42 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "01_Sebastian:SYMBOL_TRIANGLE_WARNING") (at 110.49 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 079ce295-40d8-4ec8-af4a-61e7ca998318)
-    (property "Reference" "LOGO1" (at 110.49 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "SYMBOL_TRIANGLE_WARNING" (at 110.49 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "01_Sebastian:Triangle_Warning" (at 110.49 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 110.998 114.554 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "" (at 110.49 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Power" "" (at 110.49 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Temperature coefficient" "" (at 110.49 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Package" "" (at 110.49 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "" (at 110.49 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "LOGO1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 45.72 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 276bd1d3-8ebe-473f-bf70-957d0dfe2831)
-    (property "Reference" "SW9" (at 45.72 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 45.72 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 45.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 45.72 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 58.42 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 279493fa-6a75-465c-b90f-f7f8c2422146)
-    (property "Reference" "SW12" (at 58.42 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 58.42 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 58.42 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 58.42 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 45.72 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3623015b-48f9-4cfa-bed8-fa149dcb07c2)
-    (property "Reference" "SW1" (at 45.72 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 45.72 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 45.72 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 45.72 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "" (at 45.72 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Power" "" (at 45.72 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Temperature coefficient" "" (at 45.72 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Package" "" (at 45.72 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "" (at 45.72 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 91.44 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3ba77d86-1809-49d4-a8b1-e919a04894cf)
-    (property "Reference" "SW23" (at 91.44 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 91.44 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 91.44 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 91.44 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 74.93 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 46512375-de82-4cef-ab53-35f907eee1a8)
-    (property "Reference" "SW15" (at 74.93 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 74.93 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 74.93 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 74.93 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 58.42 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4d98d5bb-48a9-4e39-9ae2-0969ea046477)
-    (property "Reference" "SW13" (at 58.42 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 58.42 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 58.42 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 58.42 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 64.77 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5482b3a2-5a10-46b6-8c15-3395e0c83ee1)
-    (property "Reference" "SW8" (at 64.77 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 64.77 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 64.77 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 64.77 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 91.44 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5721ff2f-f122-4289-8e78-06fe9cb37aa3)
-    (property "Reference" "SW22" (at 91.44 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 91.44 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 91.44 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 91.44 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:FrontPanel_42TE_2HE_With_Holes") (at 77.47 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 68c83182-76b3-4ccc-aaf7-5c4b6e087c58)
-    (property "Reference" "MP1" (at 77.343 37.6809 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "FrontPanel_42TE_2HE_With_Holes" (at 77.343 39.6019 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:Front_Panel_42TE_With_Holes" (at 77.47 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 77.216 39.116 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "MP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 64.77 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6bb3f1f3-e90e-4e7e-9abc-c49369178c49)
-    (property "Reference" "SW7" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 64.77 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 64.77 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 64.77 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 52.07 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7040d69d-2dae-4721-86a1-f90742ba861c)
-    (property "Reference" "SW3" (at 52.07 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 52.07 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 52.07 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 52.07 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 74.93 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a26be1b-ddfa-40b6-9646-bf649ffebcb2)
-    (property "Reference" "SW16" (at 74.93 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 74.93 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 74.93 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 74.93 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 64.77 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7ef06814-e279-41fc-a62e-a70487287f30)
-    (property "Reference" "SW14" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 64.77 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 64.77 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 52.07 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 82dce5ce-1d61-40d0-b537-d0d004ca4012)
-    (property "Reference" "SW2" (at 52.07 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 52.07 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 52.07 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 52.07 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:5_Socket_Terminal") (at 118.11 85.09 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8710f249-c40b-4eec-940f-ea403f009dc0)
-    (property "Reference" "J1" (at 126.7313 84.4463 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5_Socket_Terminal" (at 126.7313 86.3673 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:SEB_7080_NI_ARRAY_5" (at 118.11 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 128.27 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 91.44 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 895d0169-042e-4c69-8767-94129fb99384)
-    (property "Reference" "SW21" (at 91.44 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 91.44 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 91.44 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 91.44 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 52.07 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 988ed17f-130c-4942-bfd5-3065def5eb4d)
-    (property "Reference" "SW4" (at 52.07 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 52.07 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 52.07 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 52.07 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 52.07 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9ba869ca-8d1f-4ce2-a341-73f778850d1a)
-    (property "Reference" "SW5" (at 52.07 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 52.07 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 52.07 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 52.07 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 81.28 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5cc18cd-3263-40bd-9acf-8fb4ec6cc34b)
-    (property "Reference" "SW20" (at 81.28 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 81.28 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 81.28 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 81.28 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 45.72 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bf4e4d42-9bc2-4875-ae33-9cb13d81c03e)
-    (property "Reference" "SW17" (at 45.72 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 45.72 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 45.72 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 45.72 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 58.42 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c29c8fb6-b454-4632-b5df-74e5d968e316)
-    (property "Reference" "SW11" (at 58.42 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 58.42 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 58.42 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 58.42 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 81.28 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e85f5cb4-5756-49cd-8d16-259fcd097443)
-    (property "Reference" "SW19" (at 81.28 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 81.28 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 81.28 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 81.28 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 64.77 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f05770dc-7054-46ea-a26e-023dc3a8b3a0)
-    (property "Reference" "SW6" (at 64.77 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 64.77 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 64.77 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 64.77 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "02_Sebastian_FrontPanel:CK PE xx") (at 45.72 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f1920954-0faa-4746-95d5-08e844957d48)
-    (property "Reference" "SW18" (at 45.72 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "CK PE xx" (at 45.72 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "02_Sebastian_FrontPanel:CK PE" (at 45.72 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf" (at 45.72 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "front_panel"
-        (path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
-          (reference "SW18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bcf6cf74-fbc4-41f0-a005-0fd48c7db72f")
+	(paper "A4")
+	(title_block
+		(title "Front Panel for Programmable Precision Resistor")
+		(date "2023-08-19")
+		(rev "B")
+		(company "Sebastian Harnisch")
+	)
+	(lib_symbols
+		(symbol "01_Sebastian:SYMBOL_TRIANGLE_WARNING"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYMBOL_TRIANGLE_WARNING"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "01_Sebastian:Triangle_Warning"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Warning symbol, triangle with exclamation mark"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Warning, triangle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYMBOL_TRIANGLE_WARNING_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.8636) (xy 0 1.6764)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.9304)
+					(radius 0.2272)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SYMBOL_TRIANGLE_WARNING_1_1"
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 5.08 -3.81) (xy 0 5.08) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "02_Sebastian_FrontPanel:5_Socket_Terminal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5_Socket_Terminal"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "02_Sebastian_FrontPanel:SEB_7080_NI_ARRAY_5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Terminal with five 4mm safety sockets"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5_Socket_Terminal_0_1"
+				(circle
+					(center -4.318 4.318)
+					(radius 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 4.318)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 4.318)
+					(radius 2.794)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 4.318)
+					(radius 3.5921)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -4.318 -4.318)
+					(radius 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 -4.318)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 -4.318)
+					(radius 2.794)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.318 -4.318)
+					(radius 3.5921)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 4.318 4.318)
+					(radius 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 4.318)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 4.318)
+					(radius 2.794)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 4.318)
+					(radius 3.5921)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 4.318 -4.318)
+					(radius 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -4.318)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -4.318)
+					(radius 2.794)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -4.318)
+					(radius 3.5921)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 4.318 -12.954)
+					(radius 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -12.954)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -12.954)
+					(radius 2.794)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -12.954)
+					(radius 3.5921)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "02_Sebastian_FrontPanel:CK PE xx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CK PE xx"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Key cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Key cap, front panel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CK PE xx_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "02_Sebastian_FrontPanel:FrontPanel_42TE_2HE_With_Holes"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FrontPanel_42TE_2HE_With_Holes"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "02_Sebastian_FrontPanel:Front_Panel_42TE_With_Holes"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Front Panel 42 TE 2HE with holes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FrontPanel_42TE_2HE_With_Holes_0_1"
+				(rectangle
+					(start -12.7 3.81)
+					(end 12.446 -3.81)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -11.43 2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -11.43 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 58.42 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a443db-87c0-4f66-b891-b2eaac6187f8")
+		(property "Reference" "SW10"
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "01_Sebastian:SYMBOL_TRIANGLE_WARNING")
+		(at 110.49 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079ce295-40d8-4ec8-af4a-61e7ca998318")
+		(property "Reference" "LOGO1"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYMBOL_TRIANGLE_WARNING"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "01_Sebastian:Triangle_Warning"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.998 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature coefficient" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 45.72 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276bd1d3-8ebe-473f-bf70-957d0dfe2831")
+		(property "Reference" "SW9"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 58.42 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "279493fa-6a75-465c-b90f-f7f8c2422146")
+		(property "Reference" "SW12"
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 58.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3623015b-48f9-4cfa-bed8-fa149dcb07c2")
+		(property "Reference" "SW1"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature coefficient" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 91.44 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba77d86-1809-49d4-a8b1-e919a04894cf")
+		(property "Reference" "SW23"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 74.93 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46512375-de82-4cef-ab53-35f907eee1a8")
+		(property "Reference" "SW15"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d98d5bb-48a9-4e39-9ae2-0969ea046477")
+		(property "Reference" "SW13"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 64.77 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5482b3a2-5a10-46b6-8c15-3395e0c83ee1")
+		(property "Reference" "SW8"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5721ff2f-f122-4289-8e78-06fe9cb37aa3")
+		(property "Reference" "SW22"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:FrontPanel_42TE_2HE_With_Holes")
+		(at 77.47 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c83182-76b3-4ccc-aaf7-5c4b6e087c58")
+		(property "Reference" "MP1"
+			(at 77.343 37.6809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FrontPanel_42TE_2HE_With_Holes"
+			(at 77.343 39.6019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:Front_Panel_42TE_With_Holes"
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.216 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 64.77 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb3f1f3-e90e-4e7e-9abc-c49369178c49")
+		(property "Reference" "SW7"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 52.07 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7040d69d-2dae-4721-86a1-f90742ba861c")
+		(property "Reference" "SW3"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 74.93 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a26be1b-ddfa-40b6-9646-bf649ffebcb2")
+		(property "Reference" "SW16"
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 64.77 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef06814-e279-41fc-a62e-a70487287f30")
+		(property "Reference" "SW14"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 52.07 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82dce5ce-1d61-40d0-b537-d0d004ca4012")
+		(property "Reference" "SW2"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:5_Socket_Terminal")
+		(at 118.11 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8710f249-c40b-4eec-940f-ea403f009dc0")
+		(property "Reference" "J1"
+			(at 126.7313 84.4463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5_Socket_Terminal"
+			(at 126.7313 86.3673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:SEB_7080_NI_ARRAY_5"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 91.44 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895d0169-042e-4c69-8767-94129fb99384")
+		(property "Reference" "SW21"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 52.07 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "988ed17f-130c-4942-bfd5-3065def5eb4d")
+		(property "Reference" "SW4"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 52.07 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba869ca-8d1f-4ce2-a341-73f778850d1a")
+		(property "Reference" "SW5"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 81.28 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5cc18cd-3263-40bd-9acf-8fb4ec6cc34b")
+		(property "Reference" "SW20"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 45.72 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4e4d42-9bc2-4875-ae33-9cb13d81c03e")
+		(property "Reference" "SW17"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 58.42 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c29c8fb6-b454-4632-b5df-74e5d968e316")
+		(property "Reference" "SW11"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 81.28 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85f5cb4-5756-49cd-8d16-259fcd097443")
+		(property "Reference" "SW19"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 64.77 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05770dc-7054-46ea-a26e-023dc3a8b3a0")
+		(property "Reference" "SW6"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 64.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "02_Sebastian_FrontPanel:CK PE xx")
+		(at 45.72 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1920954-0faa-4746-95d5-08e844957d48")
+		(property "Reference" "SW18"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CK PE xx"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "02_Sebastian_FrontPanel:CK PE"
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/pn-3050961.pdf"
+			(at 45.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "front_panel"
+				(path "/bcf6cf74-fbc4-41f0-a005-0fd48c7db72f"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
