@@ -6,6 +6,8 @@ A SCPI programmable precision resistor
 
 **WARNING:** The programmable power resistor presented here is mains powered. On the power supply board there will be mains/line voltage. Working with/on such devices can lead to damage, injury or death. Don't do it if you're not qualified or authorized to do so. You use the circuits described at you own risk. You might operate the mainboard and ui board more safely with a bench or external power supply.
 
+**NOTE:** I wasn't happy about the AC/DC power supply of the initial design. I ended up using a EI-core transformer, bridge rectifier, capacitor two tiny DC/DC converters. Some of the documentation does not reflect this change.
+
 ## Background and motivation
 
 In 2021/2022 I designed a DC electronic load that would be more capable, but also much more complex than the usual DIY solutions. However, after building a working breadboard prototype of the analog circuitry with 12 ICs including multiple precision and dual opamps, I thought that it might be better to start with a smaller project that would allow me to gain a lot of experience and write much of the non-application specific code that I could use later on for the digital part. Also, at the time I was looking for a decade resistor box to add to my lab. And this is how I started working on a programmable decade resistor, a pretty specialized tool for niche applications.
