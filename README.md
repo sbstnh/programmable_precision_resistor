@@ -1,12 +1,12 @@
-# Progammable Precision Resistor
+# Programmable Precision Resistor
 
 A SCPI programmable precision resistor
 
 ![Programmable Precision Resistor](media/ppr_front.jpg "Programmable Precision Resistor")
 
-**WARNING:** The programmable power resistor presented here is mains powered. On the power supply board there will be mains/line voltage. Working with/on such devices can lead to damage, injury or death. Don't do it if you're not qualified or authorized to do so. You use the circuits described at you own risk. You might operate the mainboard and ui board more safely with a bench or external power supply.
+**WARNING:** The programmable power resistor presented is mains powered. On the power supply board there will be mains/line voltage. Working with/on such devices can lead to damage, injury or death. Don't do it if you're not qualified or authorized to do so. You use the circuits described at you own risk. You have to make sure that the circuit is safe and adheres to the applicable standards in your location. You might operate the mainboard and ui board more safely with a bench or external power supply.
 
-**NOTE:** I wasn't happy about the AC/DC power supply of the initial design. I ended up using a EI-core transformer, bridge rectifier, capacitor two tiny DC/DC converters. Some of the documentation does not reflect this change.
+**WARNING:** I abandoned the AC/DC converter of the initial design mostly due to EMI issues. I ended up using a EI-core (isolation) transformer, bridge rectifier, capacitor two tiny DC/DC converters. Some of the documentation does not reflect this change.
 
 ## Background and motivation
 
@@ -64,6 +64,7 @@ The power supply board uses an off-the-shelve AC/DC converter to provide a +15V 
 
 The mainboard’s main controller contains the business logic to control the relays, read the external inputs and run the USB and user interfaces. The main controller communicates with the User Interface Board over I2C which handles the multiplexing of the alphanumeric LED display, scans the switch matrix, decodes the signals of the rotary encoder and drives the buzzer.
 
+Note that these pictures DO NOT represent the final design of the Programmable Precision Resistor and the power supply circuit in particular.
 ![Programmable Precision Resistor](media/ppr_top.jpg "Programmable Precision Resistor")
 ![Programmable Precision Resistor](media/ppr_rear.jpg "Programmable Precision Resistor")
 
